@@ -1,4 +1,4 @@
 package idv.blake.vo;
 
-public class IOPort {
+public interface IOPort {
 }

@@ -1,4 +1,4 @@
 package idv.blake.vo;
 
-public class Monitor {
+public interface Monitor {
 }

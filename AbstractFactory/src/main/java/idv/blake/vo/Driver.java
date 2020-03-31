@@ -1,4 +1,7 @@
 package idv.blake.vo;
 
-public class Driver {
+public interface Driver {
+    public void updateFreeSpace();
+
+    public void doQuickSMARTCheck();
 }
