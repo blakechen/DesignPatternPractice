@@ -67,10 +67,7 @@ public class ClientTest {
         client.addObserver(log);
         server.addClient(client);
         server.monitor();
-        this.assertEquals("",stream.toString());
-    }
-
-    private void assertEquals(String s, String toString) {
+        Assert.assertEquals("",stream.toString());
     }
 
 }
