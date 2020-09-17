@@ -1,0 +1,13 @@
+PROGRAM
+    PRINT begin
+    BREAK
+    REPEAT 3
+        REPEAT 2
+            PRINT dog SPACE
+            PRINT is SPACE
+            PRINT a SPACE
+            PRINT animal
+            BREAK
+        END
+    END
+END
