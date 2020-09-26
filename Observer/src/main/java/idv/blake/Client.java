@@ -40,7 +40,7 @@ public class Client implements Subject {
     }
 
     public Command getCheckCommand() {
-        return null;
+        return command;
     }
 
     public Result getResult() {
